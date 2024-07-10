@@ -1,0 +1,158 @@
+.container_projects {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, rgb(89, 0, 111), black, rgb(0, 17, 124));
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  animation-delay: 0;
+}
+
+.projects {
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.home_image {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.projects_title {
+  font-size: 70px;
+  margin: 50px 0 10px 0;
+  text-align: center;
+}
+
+.projects_intro {
+  font-size: 17px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.project_section {
+  position: relative;
+  width: 80%;
+  max-width: 1400px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg, rgb(125, 0, 160), black, rgb(17, 0, 174));
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px white;
+  transition: .3s;
+  animation-delay: 0;
+}
+
+.project_section:hover {
+  width: 83%;
+  max-width: 1450px;
+}
+
+.project_title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.project_desc {
+  width: 1100px;
+  margin-bottom: 40px;
+}
+
+.project_languages {
+  font-size: 13px;
+}
+
+.project_github {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 35px;
+  border-radius: 100%;
+  border: 2px solid white;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.project_github:hover {
+  transform: scale(1.05);
+}
+
+.project_website {
+  cursor: pointer;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 5px 10px;
+  transition: .15s;
+}
+
+.project_website:hover {
+  width: 240px;
+}
+
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  } 
+}
+
+
+@media screen and (max-width: 1400px) {
+  .project_desc {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .project_desc {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project_title {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .project_desc {
+    font-size: 14px;
+    width: 400px;
+  }
+
+  .project_languages {
+    font-size: 12px;
+  }
+  
+  .projects_intro {
+    font-size: 16px;
+  }
+
+  .projects_title {
+    font-size: 50px;
+  }
+}

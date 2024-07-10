@@ -1,0 +1,165 @@
+.more_information {
+  z-index: 2;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(0, 0, 111), black, rgb(93, 0, 0));
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  animation-delay: 0;
+}
+
+.information_title {
+  font-size: 70px;
+  margin: 50px 0 10px 0;
+  text-align: center;
+}
+
+.information_intro {
+  font-size: 17px;
+  text-align: center;
+}
+
+.information_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 45px;
+}
+
+.information_button {
+  color: black;
+  border: none;
+  padding: 7px 0px;
+  width: 33%;
+  font-size: 14px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.information_button:hover {
+  transform: translateY(-2px);
+}
+
+.contact_button {
+  border-top-right-radius: 15px;
+}
+
+.grades_button {
+  border-top-left-radius: 15px;
+}
+
+.info_outer_section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  margin-top: 20px;
+  width: 80%;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 60px;
+}
+
+.info_section {
+  box-shadow: 0 0 20px white;
+  width: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  background: linear-gradient(45deg, rgb(0, 0, 148), black, rgb(141, 0, 0));
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  transition: .3s;
+  animation-delay: 0;
+}
+
+.info_section:hover {
+  width: 87%;
+}
+
+.outer_info_section {
+  margin: 40px 0;
+}
+
+.info_title {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.info_info {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.info_bold {
+  font-weight: 800;
+  color: rgb(0, 243, 8);
+}
+
+.contact_info {
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+  
+}
+
+
+@media screen and (max-width: 1400px) {
+  .project_desc {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .project_desc {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project_title {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .project_desc {
+    font-size: 14px;
+    width: 400px;
+  }
+
+  .project_languages {
+    font-size: 12px;
+  }
+  
+  .information_intro {
+    font-size: 16px;
+  }
+
+  .information_title {
+    font-size: 50px;
+  }
+}

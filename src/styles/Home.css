@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(2px); /* For Safari */
+}
+
+.my_name {
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.my_desc {
+  width: 70%;
+  text-align: center;
+  max-width: 1200px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.home_button {
+  color: black;
+  height: 35px;
+  width: 160px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: .4s;
+  font-size: 14px;
+}
+
+.home_button:hover {
+  background: transparent;
+  color: white;
+}
+
+.links {
+  margin-top: 20px;
+
+}
+
+.social_button {
+  margin: 6px;
+  background: white;
+  border-radius: 100%;
+  border: 2px solid white;
+  height: 40px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.social_button:hover {
+  transform: scale(1.1);
+}
+
+
