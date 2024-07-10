@@ -31,7 +31,7 @@ export const MoreInformation = () => {
     <div className='container'></div>
     <div className="more_information">
       <a href='/'>
-        <img alt='Image' className='home_image' src={home}/>
+        <img alt='Home' className='home_image' src={home}/>
       </a>
       <h1 className='information_title'>My Info</h1>
       <p className='information_intro'>Some more information with regards to my experience.</p>
