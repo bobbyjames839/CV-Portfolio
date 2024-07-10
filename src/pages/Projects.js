@@ -27,7 +27,7 @@ export const Projects = () => {
     <div className='container_projects'></div>
     <div className="projects">
       <a href='/'>
-        <img className='home_image' src={home}/>
+        <img alt='Image' className='home_image' src={home}/>
       </a>
       <h1 className='projects_title'>My Projects</h1>
       <p className='projects_intro'>Here are some of my most recent coding projects.</p>

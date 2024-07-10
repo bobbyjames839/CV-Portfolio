@@ -28,10 +28,10 @@ export const Home = () => {
 
         <div className="links">
           <a href="https://github.com/bobbyjames839">
-            <img className="social_button github" src={github}></img>
+            <img alt='Image' className="social_button github" src={github}></img>
           </a>
           <a href="https://www.linkedin.com/in/bobby-davidson1/">
-            <img className="social_button linkedin" src={linkedin}></img>
+            <img alt='Image' className="social_button linkedin" src={linkedin}></img>
           </a>
         </div>
         
