@@ -59,13 +59,13 @@ export const Projects = () => {
       language='Python, Firebase, Google Forms' 
       link = 'https://github.com/bobbyjames839/Cognitive-Test'></Project>
 
-    <Project 
+      <Project 
       title='Telegram and Trading Bot' 
       desc='Telegram bot that you can speak to from the Telegram app, please note there are also some trading bots in this repo.' 
       language='Python' 
       link = 'https://github.com/bobbyjames839/Python-Bots'></Project>
 
-    <Project 
+      <Project 
       title='Stock Price Machine Learning' 
       desc='Various ML models to predict stock data using RandomForestClassifier, LogisticRegression, LinearRegression' 
       language='Python' 

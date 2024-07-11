@@ -1,6 +1,5 @@
 .more_information {
   z-index: 2;
-  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@
   position: fixed;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(45deg, rgb(0, 0, 111), black, rgb(93, 0, 0));
+  background: linear-gradient(to right, rgb(0, 21, 143), black, rgb(121, 0, 0));
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
   animation-delay: 0;
@@ -76,7 +75,7 @@
   padding: 20px;
   border-radius: 10px;
   margin: 25px 0;
-  background: linear-gradient(45deg, rgb(0, 0, 148), black, rgb(141, 0, 0));
+  background-color: rgba(0,0,0,.1);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
   transition: .3s;
@@ -99,6 +98,7 @@
 .info_info {
   font-size: 14px;
   margin: 4px 0;
+  width: 1400px;
 }
 
 .info_bold {
@@ -127,39 +127,21 @@
   
 }
 
-
-@media screen and (max-width: 1400px) {
-  .project_desc {
-    width: 900px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .project_desc {
+@media screen and (max-width: 1150px) {
+  .info_info {
     width: 600px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .project_title {
-    font-size: 20px;
-    width: 80%;
-  }
-
-  .project_desc {
+@media screen and (max-width: 850px) {
+  .info_info {
     font-size: 14px;
     width: 400px;
   }
+}
 
-  .project_languages {
-    font-size: 12px;
-  }
-  
-  .information_intro {
-    font-size: 16px;
-  }
-
-  .information_title {
-    font-size: 50px;
+@media screen and (max-width: 550px) {
+  .info_info {
+    width: 320px;
   }
 }
