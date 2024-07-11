@@ -24,6 +24,7 @@
 }
 
 .information_intro {
+  width: 80%;
   font-size: 17px;
   text-align: center;
 }
@@ -38,7 +39,7 @@
 .information_button {
   color: black;
   border: none;
-  padding: 7px 0px;
+  padding: 7px 3px;
   width: 33%;
   font-size: 14px;
   cursor: pointer;
@@ -134,6 +135,18 @@
 }
 
 @media screen and (max-width: 850px) {
+  .information_title {
+    font-size: 55px;
+  }
+
+  .information_intro {
+    font-size: 15px;
+  }
+
+  .information_button {
+    font-size: 12px;
+  }
+
   .info_info {
     font-size: 14px;
     width: 400px;
@@ -143,5 +156,11 @@
 @media screen and (max-width: 550px) {
   .info_info {
     width: 320px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .info_info {
+    width: 300px;
   }
 }
