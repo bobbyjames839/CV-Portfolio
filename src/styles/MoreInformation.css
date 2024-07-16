@@ -49,26 +49,21 @@
 }
 
 .information_button {
-  color: black;
-  border: none;
   padding: 7px 3px;
   width: 33%;
   font-size: 14px;
   cursor: pointer;
   transition: .3s;
+  border-radius: 5px;
+  background: transparent;
+  border: 1.5px solid white;
 }
 
 .information_button:hover {
   transform: translateY(-2px);
 }
 
-.contact_button {
-  border-top-right-radius: 15px;
-}
 
-.grades_button {
-  border-top-left-radius: 15px;
-}
 
 .info_outer_section {
   display: flex;

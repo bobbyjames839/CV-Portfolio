@@ -52,21 +52,21 @@ export const MoreInformation = () => {
         <button
           className='information_button grades_button'
           onClick={() => handleSection('Grades')}
-          style={{backgroundColor: grades ? '#bebebe' : 'white'}}
+          style={{backgroundColor: grades ? 'rgba(0,0,0,.7)' : 'transparent'}}
         >
           Grades & Skills
         </button>
         <button
           className='information_button work_experience_button'
           onClick={() => handleSection('Experience')}
-          style={{backgroundColor: experience ? '#bebebe' : 'white'}}
+          style={{backgroundColor: experience ? 'rgba(0,0,0,.7)' : 'transparent'}}
         >
           Work Experience & Internships
         </button>
         <button
           className='information_button contact_button'
           onClick={() => handleSection('Contact')}
-          style={{backgroundColor: contact ? '#bebebe' : 'white'}}
+          style={{backgroundColor: contact ? 'rgba(0,0,0,.7)' : 'transparent'}}
         >
           Contact Info
         </button>
