@@ -35,7 +35,7 @@ export const Projects = () => {
       <Project 
       title='Type 1 Diabetes Machine Learning Model' 
       desc='Created a web app where I input data on every meal that I have eaten, this data is automatically sent to a google form. When I have enough data I will make a model that predicts how much insulin I should inject after a meal. Currently building V3.' 
-      language='JavaScript, Google Forms' 
+      language='JavaScript, Google Forms, Firebase, API, Flask App' 
       link = 'https://github.com/bobbyjames839/Diabetes-Data-Collector-V3'
       website='https://diabetesv3.netlify.app'></Project>
 
