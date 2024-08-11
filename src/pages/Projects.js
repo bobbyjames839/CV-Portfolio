@@ -57,7 +57,7 @@ export const Projects = () => {
       title='House Price Prediction Model' 
       desc='RandomForestRegressor to predict house prices, average error of 13.5%.' 
       language='Python, RandomForestRegresor, LinearRegressor' 
-      link = 'https://github.com/bobbyjames839/bobee_landing_page'></Project>
+      link = 'https://github.com/bobbyjames839/House-Price-Prediction'></Project>
 
       <Project 
       title='CompanyHouse API' 
