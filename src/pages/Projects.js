@@ -47,6 +47,19 @@ export const Projects = () => {
       website='https://serene-fairy-c17033.netlify.app/'></Project>
 
       <Project 
+      title='Landing Page with Chatbot' 
+      desc='Landing page for a cleaning company with an integrated chatbot using the OpenAI API.' 
+      language='ReactJS, Stripe Payments, Netlify, API' 
+      link = 'https://github.com/bobbyjames839/Bobee-Landing-Page'
+      website='https://bobeelanding.netlify.app/'></Project>
+
+      <Project 
+      title='House Price Prediction Model' 
+      desc='RandomForestRegressor to predict house prices, average error of 13.5%.' 
+      language='Python, RandomForestRegresor, LinearRegressor' 
+      link = 'https://github.com/bobbyjames839/bobee_landing_page'></Project>
+
+      <Project 
       title='CompanyHouse API' 
       desc='Software which enables you to search for companies from the CompanyHouse database based off multiple parameters. This is not finished and only works in localhost because I was unsure on how to parse the API secret key to Netlify. The code is unresponsive (ie, only made for computer).' 
       language='ReactJS, API, Netlify' 
