@@ -33,6 +33,21 @@ export const Projects = () => {
       <p className='projects_intro'>Here are some of my most recent coding projects.</p>
 
       <Project 
+      title='Calendar Booking System' 
+      desc='Booking system for small businesses to use, includes a booking page and a portal where the business can view bookings. 2 separates repos, only one website is live.' 
+      language='JavaScript, Firebase' 
+      link = 'https://github.com/bobbyjames839/calendar'
+      website='https://calendarbobbytommy.netlify.app'></Project>
+          
+    <Project 
+      title='Coding ChatBot' 
+      desc='Chatbot to help me with coding, users can create multiple chats, authenticate, save chats, delete chats, edit chat names, customise their settings to receive custom responses from the chatbot, subscribe to receive access to a better model. There is no code because I accidentally deleted it on the command line. View screen recording on the link.' 
+      language='JavaScript, Python, Firebase, Stripe, OpenAI API' 
+      website='file:///Users/bobbydavidson/Downloads/WhatsApp%20Video%202024-08-25%20at%2017.03.41.mp4'>
+    </Project>
+
+
+      <Project 
       title='Type 1 Diabetes Machine Learning Model' 
       desc='Created a web app where I input data on every meal that I have eaten, this data is automatically sent to a google form. When I have enough data I will make a model that predicts how much insulin I should inject after a meal. Currently building V3.' 
       language='JavaScript, Google Forms, Firebase, API, Flask App' 
