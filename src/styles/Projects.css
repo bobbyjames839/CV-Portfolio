@@ -8,6 +8,14 @@
   animation-delay: 0;
 }
 
+.download {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 12px;
+}
+
 .projects {
   z-index: 2;
   min-height: 100vh;
