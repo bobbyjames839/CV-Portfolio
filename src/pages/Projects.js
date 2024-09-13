@@ -4,7 +4,7 @@ import github from '../images/github.png'
 
 export const Projects = () => {
 
-  const Project = ({ title, desc, language, link, website, download = null}) => {
+  const Project = ({ title, desc, language, link, website }) => {
     return (
       <div className='project_section'>
         <h3 className='project_title'>{title}</h3>
@@ -18,7 +18,6 @@ export const Projects = () => {
           Visit Website
         </a>
         )}
-        {download && <a className='download' href='https://liveuclac-my.sharepoint.com/:v:/r/personal/zcbtrd2_ucl_ac_uk/Documents/Attachments/WhatsApp%20Video%202024-08-25%20at%2017.03.41.mp4?download=1'>Download Screen Recording</a>}
       </div>
     );
   };
@@ -42,9 +41,8 @@ export const Projects = () => {
           
     <Project 
       title='Coding ChatBot' 
-      desc='Chatbot to help me with coding, users can create multiple chats, authenticate, save chats, delete chats, edit chat names, customise their settings to receive custom responses from the chatbot, subscribe to receive access to a better model. There is no code because I accidentally deleted it on the command line. View screen recording on the link.' 
-      language='JavaScript, Python, Firebase, Stripe, OpenAI API' 
-      download='hey'>
+      desc='Chatbot to help me with coding, users can create multiple chats, authenticate, save chats, delete chats, edit chat names, customise their settings to receive custom responses from the chatbot, subscribe to receive access to a better model. There is no code because I accidentally deleted it on the command line' 
+      language='JavaScript, Python, Firebase, Stripe, OpenAI API' >
     </Project>
 
 
