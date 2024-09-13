@@ -18,7 +18,7 @@ export const Projects = () => {
           Visit Website
         </a>
         )}
-        {download && <a className='download' href='https://liveuclac-my.sharepoint.com/:v:/r/personal/zcbtrd2_ucl_ac_uk/Documents/Attachments/WhatsApp%20Video%202024-08-25%20at%2017.03.41.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dK22WE'>Download Screen Recording</a>}
+        {download && <a className='download' href='https://liveuclac-my.sharepoint.com/:v:/r/personal/zcbtrd2_ucl_ac_uk/Documents/Attachments/WhatsApp%20Video%202024-08-25%20at%2017.03.41.mp4?download=1'>Download Screen Recording</a>}
       </div>
     );
   };
