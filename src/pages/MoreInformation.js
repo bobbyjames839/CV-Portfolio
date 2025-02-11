@@ -108,6 +108,14 @@ export const MoreInformation = () => {
       {experience && <div className='experience info_outer_section'>
 
           <Experience
+            title="Time Machine Capital 2 – Summer Internship (Sep 2024)"
+            desc1="• VC firm focused on investing / building AI products. DAACI (AI music composer) and SIGMA (trading AI)."
+            desc2="• Generated a contact list of 500 people from asset / wealth managers for SIGMA to potentially partner with."
+            desc3="• Completed a gaming industry market sizing to identify use cases for DAACI in this sector."
+            desc4="• Performed quality assurance and helped detect faults for the new DAACI product."
+          />
+          
+          <Experience
           title = 'Avanade Technology Internship (summer 2024)'
           desc1 = '• Worked in the data and AI team on an AI pricing model.'
           desc2 = '• Learned about various ML models, specifically RandomForest.'
@@ -129,6 +137,8 @@ export const MoreInformation = () => {
           desc3 = '• Consistently posted on my pages and platforms to increase engagement and interaction.'
           desc4 = '• Worked with brands and companies to help promote their products and services.'>
           </Experience>
+
+
         </div>}
 
       {contact && <div className='contact info_outer_section'>
